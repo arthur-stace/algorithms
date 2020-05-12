@@ -23,6 +23,12 @@ _Read this in other languages:_
 *☝ Note that this project is meant to be used for learning and researching purposes 
 only and it is **not** meant to be used for production.*
 
+This breakdown could also be a useful course of study
+
+```shell
+./node_modules/.bin/jest --json | jq -R .testResults[].assertionResults[].fullName
+```
+
 ## Data Structures
 
 A data structure is a particular way of organizing and storing data in a computer so that it can
