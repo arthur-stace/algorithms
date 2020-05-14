@@ -26,7 +26,7 @@ only and it is **not** meant to be used for production.*
 This breakdown could also be a useful course of study
 
 ```shell
-./node_modules/.bin/jest --json | jq -R .testResults[].assertionResults[].fullName
+./node_modules/.bin/jest --json | jq '.testResults[].assertionResults[].fullName'
 ```
 
 ## Data Structures
